@@ -11,7 +11,7 @@ function Naver(){
           <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="/">Kyle Frable</a>
+        <a href="#">Kyle Frable</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
