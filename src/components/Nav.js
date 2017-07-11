@@ -1,39 +1,63 @@
 import React from 'react'
 import {
-  Navbar,Header,Brand,Toggle,Collapse,Nav,NavItem,NavDropdown,MenuItem
+  Bootstrap,
+  Button,
+  DropdownButton,
+  MenuItem,
+  Nav,
+  NavItem,
+  Navbar,
+  NavDropdown,
+  FormGroup,
+  FormControl
 } from 'react-bootstrap';
+
+const style={
+      padding: 'inherit'
+}
 
 function Naver(){
   return (
       <div>
-        
+      
 
           <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">Kyle Frable</a>
+        <a href="#about" style={style}>Kyle Frable</a>
+        <a href="#contact" style={style}>Contact</a>
+        <a href="#contact" style={style}>Projects</a>
+        <a href="#contact" style={style}>skills</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Nav>
-      
-        
-        {/*<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1} href="/#about">About</MenuItem>
-          <MenuItem eventKey={3.2} href="/#projects">Projects</MenuItem>
-          <MenuItem eventKey={3.3} href="/#skills">Skills</MenuItem>
-          
-          <MenuItem eventKey={3.3} href="/#contact">Contact</MenuItem>
-          
-          
-        </NavDropdown>*/}
-      </Nav>
+      {/*<Nav>
+      <ul className='nav'>
+        <li class = 'list'><a href="#contact">Contact</a></li>
+        <li class = 'list'><a href="/">HOME</a></li>
+        <li class = 'list'><a href="/style">STYLE</a></li>
+      </ul>
+       </Nav>*/} 
       {/*<Nav pullRight>
-        
+        <NavItem eventKey={1} href="#">Link Right</NavItem>
+        <NavItem eventKey={2} href="#">Link Right</NavItem>
       </Nav>*/}
     </Navbar.Collapse>
   </Navbar>
+     {/* <Nav>
+      <ul className='nav'>
+        <li class = 'list'><a href="#contact">Contact</a></li>
+        <li class = 'list'><a href="/">HOME</a></li>
+        <li class = 'list'><a href="/style">STYLE</a></li>
+      </ul>
+       </Nav>*/} 
+
+       
+        
+          
+          
+      
 
         
       </div>
