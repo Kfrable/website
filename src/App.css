@@ -73,7 +73,7 @@ p{
     -webkit-background-clip: text;
     margin-top: 6px;
     color:black;
-    text-shadow: blue 2px 1px 2px;
+    text-shadow: darkslategray 2px 1px 2px;
 }
 
 #me{
@@ -155,6 +155,7 @@ body {
 }
 
 .nav {
+  visibility: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -216,6 +217,7 @@ ul{
     margin-top: -442px;
     background-color: white;
     opacity: .8;
+
 }
 
 #aboutDiv{
@@ -229,6 +231,7 @@ ul{
   width: 448px;
  display: inline-flex;
  height: 638px;
+ border: black dotted;
 }
 
 .proimg:hover {
@@ -260,8 +263,8 @@ ul{
 
 .contacth2{
     display: inline-flex;
-    height: 93px;
-    width: 93px;
+    height: 45px;
+    width: 45px;
     margin-left: 61px;
 }
 
@@ -321,17 +324,34 @@ ul{
 }
 .contact-container{
   display: inline-flex;
-  margin-right: -36px;
+  margin-right: 13px;
+  margin-top: 17px;
 }
-.contact-container:hover{
-  background-color: red;
-}
-.contact-container:hover  #kcemail {
- background-color: blue; }
 
- #about-me{
-  
- }
+#about-me{
+  margin-left: -46px;
+}
+
+/*.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+    text-align: center;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}*/
+
+
+ 
 /*.skillDescription{
   display: none;
 }
