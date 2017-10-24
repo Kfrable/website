@@ -1,156 +1,59 @@
 import React from 'react'
 import {
-  imageShapeInstance,circle,Col,Image,imageResponsiveInstance,responsive,Carousel,Item,Caption,wellInstance,Well
+ Image
 } from 'react-bootstrap';
 
-const Style = {
- 	display:'inline',
- 	padding:'15',
-
- }
- const Move = {
- 	left:'613'
- }
-const Style1={
-	/*border:'black solid',*/
-	'margin-left':'48%',
-	width:'217',
-	display:'inline-block'
-    
+let style = {
+  'margin-top': '90'
 }
-
-const Style2={
-	/*border:'black solid',*/
-	'margin-left':'10',
-	width:'217',
-	display:'inline-block'
-    
-}
-
-const gone = {
-	'list-style-type':'none'
-}
-
-const im={
-	height: '44'/*,
-	'margin-left': '59'*/
-
-}
+ 
 
 function Skills(){
+
 	return(
-		<div id='skill'>
-					<h1>Skills</h1>
-					{/*<div  style={Style1}>	
-					<ul style={gone}>*/} 
-						{/*<div className='topics'><Image style={im} src="./images/javascript.png" responsive /><h1>JavaScript</h1></div>
-						<div className='topics'><Image style={im} src="./images/ruby.png" responsive /><h1>Ruby</h1></div>
-						<div className='topics'><Image style={im} src="./images/rails.png" responsive /><h1>Rails</h1></div>
-						<div className='topics'><Image style={im} src="./images/react.png" responsive /><h1>React</h1></div>
-						<div className='topics'><Image style={im} src="./images/express.png" responsive /><h1>Express</h1></div>
-						<div className='topics'><Image style={im} src="./images/sql.png" responsive /><h1>SQL</h1></div>*/}
-						
+		<div id='skill' className="skill-bg" style={style}>
 					
-					{/*</div>
-					<div  style={Style2}>
-					<ul style={gone}>*/}
-						{/*<div className='topics'><Image style={im} src="./images/elphant.png" responsive /><h1>Postgress</h1></div>
-						<div className='topics'><Image style={im} src="./images/heroku.png" responsive /><h1>Heroku</h1></div>
-						<div className='topics'><Image style={im} src="./images/boot.png" responsive /><h1>Bootstrap</h1></div>
-						<div className='topics'><Image style={im} src="./images/css.png" responsive /><h1>CSS</h1></div>
-						<div className='topics'><Image style={im} src="./images/html.png" responsive /><h1>HTML</h1></div>*/}
-					<Carousel>
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/react.png"/>
-      <Carousel.Caption>
-        <h3>React</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
+					
+  <div id='outerSkills'>
+                  <h1>Skills</h1>
+  <div className='allSkills'>
+        
+        <Image className='skillImg' id='react'src="https://devico.io/images/react-logo-dark.svg" responsive />
 
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/javascript.png"/>
-      <Carousel.Caption>
-        <h3>JavaScript</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
+        <Image className='skillImg' id='node'src="https://nodejs.org/static/images/logos/nodejs-new-white.png" responsive />
+        <Image className='skillImg' id='js'src="https://8sph.azureedge.net/media/Default/_Profiles/8f14fafe/5dca490f/nodejs.png?v=636119959950000000" responsive />
+  </div>
 
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/ruby.png"/>
-      <Carousel.Caption>
-        <h3>Ruby</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
+  <div className='allSkills'>
 
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/rails.png"/>
-      <Carousel.Caption>
-        <h3>Ruby On Rails</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
+        <Image className='skillImg' id='jquery'src="http://stridecoder.com/wp-content/uploads/2016/04/jquery.png" responsive />
+        <Image className='skillImg' id='ruby'src="http://www.rodrigonardi.com/assets/ruby-2bf0c0471cc17e51d3f7c2e32c2be55b.png" responsive />
+        <Image className='skillImg' id='rails'src="http://moonahmed.com/assets/images/theme_images/programming-icons/rails.png" responsive />
+  </div>
 
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/express.png"/>
-      <Carousel.Caption>
-        <h3>Express</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
+  <div className='allSkills'>
+  <Image className='skillImg' id='express'src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/landscape/expressjslogo.png?1499962460" responsive />
+  <Image className='skillImg' id='sql'src="https://cdn3.iconfinder.com/data/icons/ui-9/512/database-512.png" responsive />
+  <Image className='skillImg' id='Postgress'src="http://www.scrumtastic.io/assets/postgres-icon-a18cfa29b691b2adff795addf2ae18888d7e6305312181255ba36227f062f429.png" responsive />
+  </div>
 
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/sql.png"/>
-      <Carousel.Caption>
-        <h3>SQL</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/elphant.png"/>
-      <Carousel.Caption>
-        <h3>Postgress</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/heroku.png"/>
-      <Carousel.Caption>
-        <h3>Heroku</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/boot.png"/>
-      <Carousel.Caption>
-        <h3>Bootstrap</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/css.png"/>
-      <Carousel.Caption>
-        <h3>CSS</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
-    <Carousel.Item style={Move}>
-      <img width={200} height={100} style={Style} src="./images/html.png"/>
-      <Carousel.Caption>
-        <h3>HTML</h3>
-        <p></p>
-      </Carousel.Caption>
-    </Carousel.Item>
-
+  <div>
     
+     <div className='allSkills'>
+        <Image className='skillImg' id= 'heroku' src="https://maxcdn.icons8.com/iOS7/PNG/512/Logos/heroku-512.png" responsive />
+        <Image className='skillImg' id= 'github' src="https://maxcdn.icons8.com/Share/icon/p1em/Logos//github1600.png" responsive />
+        <Image className='skillImg' id= 'css' src="https://maxcdn.icons8.com/Android_L/PNG/512/Logos/css3-512.png" responsive />
+     </div>
+
+
+    <div className='allSkills'>
+        <Image className='skillImg' id= 'html' src="https://maxcdn.icons8.com/Android_L/PNG/512/Logos/html_5-512.png" responsive />
+        <Image className='skillImg' id= 'bootstrap' src="http://www.fallingmonocle.com/assets/bootstrap_logo_white@2x.png" responsive />
+        
+  </div>
     
-  </Carousel>
+  </div>
+  </div>
 		</div>
 	)
 }
