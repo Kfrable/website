@@ -19,6 +19,14 @@ function Contact(){
 				</div>
 				<div className='contact-container'><a href='https://www.linkedin.com/in/kyle-frable'> <img src='https://www.scottsolutions.us/wp-content/uploads/2016/05/linkedin-logo.png' className='contacth2'/></a>
 				</div>
+ <form action="https://formspree.io/kcfrable@gmail.com"
+      method="POST">
+    <input type="text" name="name"/>
+    <input type="email" name="_replyto"/>
+    <input type="text" name="description"/>
+
+    <input type="submit" value="Send"/>
+</form>
 
 			</div>
 				
