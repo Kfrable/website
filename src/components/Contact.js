@@ -33,13 +33,13 @@ function Contact(){
 				</div>
  
 
-<div className='contact-container'><a href='./email'><img src='https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/256/MB__gmail-copy.png' id = 'kmail'className='contacth2'/></a>
+
 				</div>
 
 			</div>
 				
                
-		</div>
+		
 	)
 }
 export default Contact
