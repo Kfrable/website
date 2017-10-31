@@ -18,5 +18,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://kfrable.github.io/website"
+  "homepage": "http://kylefrable.com/"
 }
