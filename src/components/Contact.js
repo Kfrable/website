@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+
+
+
 const Style = {
 	'text-align':'center',
 	    height: '66'
 	    
 }
+
+/*<form action="https://formspree.io/kcfrable@gmail.com"
+      method="POST">
+    <input type="text" name="name"/>
+    <input type="email" name="_replyto"/>
+    <input type="text" name="description"/>
+
+    <input type="submit" value="Send"/>
+</form>*/
 
 
 function Contact(){
@@ -19,14 +31,10 @@ function Contact(){
 				</div>
 				<div className='contact-container'><a href='https://www.linkedin.com/in/kyle-frable'> <img src='https://www.scottsolutions.us/wp-content/uploads/2016/05/linkedin-logo.png' className='contacth2'/></a>
 				</div>
- <form action="https://formspree.io/kcfrable@gmail.com"
-      method="POST">
-    <input type="text" name="name"/>
-    <input type="email" name="_replyto"/>
-    <input type="text" name="description"/>
+ 
 
-    <input type="submit" value="Send"/>
-</form>
+<div className='contact-container'><a href='./email'><img src='https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/256/MB__gmail-copy.png' id = 'kmail'className='contacth2'/></a>
+				</div>
 
 			</div>
 				
